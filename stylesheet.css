@@ -453,7 +453,7 @@ th {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #ddd;
-  color: white;
+  color: black;
 }
 
 body {
