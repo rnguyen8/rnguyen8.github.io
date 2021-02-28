@@ -877,13 +877,6 @@ dl dd {
   background-color: #ccc;
 }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
 
 .accordion__header {
 	padding: 1em;
@@ -894,11 +887,13 @@ dl dd {
 	align-items: center;
 	cursor: pointer;
 }
+
 .accordion__header > * {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 16px;
 }
+
 .accordion__header.is-active {
 	background-color: #000;
 	color: #fff;
@@ -929,11 +924,11 @@ dl dd {
 
 .is-active .accordion__toggle {
 	background-color: #fff;
+	
 }
 .is-active .accordion__toggle::before {
 	display: none;
 }
-
 
 .accordion__body {
 	display: none;
@@ -941,6 +936,7 @@ dl dd {
 	border: 1px solid #ccc;
 	border-top: 0;
 }
+
 .accordion__body.is-active {
 	display: block;
 }
