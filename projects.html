@@ -14,10 +14,7 @@
     <![endif]-->
 
     <title> Robin Nguyen </title>  
-    <style>
-* {box-sizing: border-box}
-body {font-family: "Lato", sans-serif;}
-    </style>
+
   </head>
 
   <body>
@@ -41,9 +38,11 @@ body {font-family: "Lato", sans-serif;}
         <section id="main-content">
           <p></p>
 
-          
-            <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+ <h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
@@ -89,9 +88,6 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
 </script>
     
   </body>
