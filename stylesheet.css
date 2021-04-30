@@ -924,7 +924,7 @@ dl dd {
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #eee;
 }
 
 /* Style the tab content */
@@ -933,5 +933,5 @@ dl dd {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
-  background-color: #ccc;
+  background-color: #eee;
 }
