@@ -865,6 +865,7 @@ dl dd {
   color: #444;
   cursor: pointer;
   padding: 18px;
+  width: 100%;
   text-align: left;
   border: 2px 2e7bcf;
   outline: none;
