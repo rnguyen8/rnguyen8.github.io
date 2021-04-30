@@ -897,7 +897,7 @@ dl dd {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-/* Style the buttons that are used to open and close the vertical tab panel */
+/* Style the buttons that are used to open and close the horizontal tab panel */
 /* Style the tab */
 .tab {
   overflow: hidden;
@@ -910,7 +910,7 @@ dl dd {
 .tab button {
   background-color: inherit;
   float: left;
-  border: none;
+  border: 1px solid #ccc;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
