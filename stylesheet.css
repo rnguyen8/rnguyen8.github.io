@@ -801,7 +801,7 @@ dl dd {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   .inner {
-    width: 93%;
+    width: 47%;
   }
   header {
     padding: 20px 0;
