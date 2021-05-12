@@ -799,7 +799,7 @@ dl dd {
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 945px) {
+@media only screen and (max-width: 970px) {
   .inner {
     width: 47%;
   }
