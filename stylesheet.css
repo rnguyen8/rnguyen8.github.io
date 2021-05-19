@@ -767,12 +767,12 @@ dl dd {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
+@media only screen and (max-width: 768px) { }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 690px) and (max-width: 959px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .inner {
-    width: 740px;
+    width: 768px;
   }
   header h1, header h2 {
     width: 340px;
@@ -799,7 +799,7 @@ dl dd {
 }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 970px) {
+@media only screen and (max-width: 768px) {
   .inner {
     width: 47%;
   }
@@ -854,10 +854,10 @@ dl dd {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 970px) { }
+@media only screen and (min-width: 480px) and (max-width: 768px) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) { }
+@media only screen and (max-width: 480px) { }
 
 
 /* Style the buttons that are used to open and close the horizontal tab panel */
