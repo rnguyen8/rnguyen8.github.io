@@ -798,10 +798,11 @@ dl dd {
   }
 }
 
+
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .inner {
-    width: 47%;
+    width: 93%;
   }
   header {
     padding: 20px 0;
@@ -839,8 +840,21 @@ dl dd {
     display: inline;
     font-size: 13px;
   }
-  
-  
+  #main-content,
+  aside#sidebar {
+    float: none;
+    width: 100% ! important;
+  }
+  aside#sidebar {
+    min-height: 0;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-image: none;
+    border-top: solid 1px #ddd;
+  }
+  aside#sidebar a.button {
+    display: none;
+  }
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
@@ -854,10 +868,10 @@ dl dd {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 320px) and (max-width: 768px) { }
+@media only screen and (min-width: 480px) and (max-width: 767px) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 480px) { }
+@media only screen and (max-width: 479px) { }
 
 
 /* Style the buttons that are used to open and close the horizontal tab panel */
