@@ -430,7 +430,7 @@ th {
 
 /* Add a background color to the top navigation */
 .topnav {
-  background-color: #2879d0;
+  background-color: #0b36ff;
   overflow: hidden;
 }
 
@@ -470,17 +470,17 @@ p {
 }
 
 a {
-  color: #2879d0;
+  color: #0b36ff;
 }
 a:hover {
-  color: #2268b2;
+  color: #0b36ff;
 }
 
 header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
+  background: #0b36ff url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
 
@@ -582,7 +582,7 @@ pre {
 }
 pre code {
   padding: 0;
-  color: #2879d0;
+  color: #0b36ff;
   background-color: #fff;
   border: none;
 }
@@ -828,7 +828,7 @@ dl dd {
     margin-top: 15px;
     font-size: 13px;
     line-height: 1;
-    color: #2879d0;
+    color: #0b36ff;
     text-align: center;
     background-color: #9ddcff;
     background-image: none;
